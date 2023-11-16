@@ -1,4 +1,4 @@
-# Retinal-OCT-Images
+# Retinal-OCT-Disease Recognition
 
 ## Overview: 
 
