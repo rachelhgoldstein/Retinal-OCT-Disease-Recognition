@@ -32,6 +32,7 @@ Treatment options for CNV, DME, and AMD may include medications, laser therapy, 
 
 ## Modeling:
 
+
 ## Evaluation:
 
 
@@ -60,7 +61,7 @@ For more information relating to multi-class modeling, please find the latest [M
 
 For more information relating to the binary modeling, please find the full analysis in the [Final Jupyter Notebook](./Retinal_OCT_Final_Notebook.ipynb), and the [presentation](./Retinal_OCT_Imaging_Presentation.pdf) here.
 
-For additional information, please contact Rachel Goldstein at [rachelhgoldstein1@gmail.com](mailto:rachelhgoldstein1@gmail.com), or find me on [Linkedin](https://www.linkedin.com/in/rachel-goldstein-512540158/). 
+For additional information, please contact Rachel Goldstein at [rachelhgoldstein1@gmail.com](mailto:rachelhgoldstein1@gmail.com), or find me on [Linkedin](https://www.linkedin.com/in/rachel-h-goldstein/). 
 
 ## Repository Structure:
 ```
