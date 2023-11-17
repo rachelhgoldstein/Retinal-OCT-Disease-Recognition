@@ -1,4 +1,5 @@
 # Retinal-OCT-Disease Recognition
+![CNV_DME_DRUSEN_NORMAL_IMAGE](./Images/cnv_dme_drusen_normal_img.png)
 
 ## Overview: 
 
@@ -32,9 +33,26 @@ Treatment options for CNV, DME, and AMD may include medications, laser therapy, 
 
 ## Modeling:
 
+I initiated the modeling process by loading and transforming the data using TensorFlow's Keras ImageDataGenerator. The transformations included horizontal flipping, height and width shifting by a maximum of 20%, 45-degree rotation, brightness adjustment within the range of 0.4 to 1, maximum 20% zoom, and changing the intensity of the pictures by a maximum of 20%.
+
+I iterated through around 45 model variations, adjusting complexity, adding regularization, modifying learning rates, experimenting with activation functions, adding balanced class weights to address challenges posed by data imbalance, and many other tools and techniques. 
+
+The final model comprised of 1,066,853 parameters, featuring 3 Convolutional 2D layers with varying input units and L2 regularization, along with 3 MaxPooling 2D layers, 2 Dropout layers, a Flatten layer, and 4 hidden Dense layers. The output layer utilized sigmoid activation with L2 regularization, while tanh activation was applied throughout the other layers.
+
+To compile the model, I used the Adam optimizer, binary crossentropy as the loss function, and evaluated the model's performance based on accuracy, precision, and recall. Priority was given to higher recall to minimize false negatives.
 
 ## Evaluation:
 
+The final model scores are as follows: 
+
+- Accuracy: 80%
+  - Out of all the predictions, my model was correct 80% of the time compared to the actual outcomes.
+- Precision: 84%
+  - Out of all the positive predictions my model made, 84% of them were correct.
+- Recall: 90%
+  - My models ability to identify positive cases was correct 90% of the time.
+- Loss: 0.464
+  - This represents the difference between the predicted values and the actual values. 
 
 ## Next Steps:
 
