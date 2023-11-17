@@ -58,8 +58,19 @@ The spread and use of such a model has the capability to revolutionize the medic
 ## For More Information:
 For more information relating to multi-class modeling, please find the latest [Multi-Class](./Code/Working_Copy_Multiclass_V3.ipynb) notebook here. 
 
-For more information relating to the binary modeling, please find the full analysis in the [Final Jupyter Notebook](./Retinal_OCT_Final_Notebook.ipynb), and the [presentation](./H1N1_Vaccination_Analysis_Presentation.pdf) here.
+For more information relating to the binary modeling, please find the full analysis in the [Final Jupyter Notebook](./Retinal_OCT_Final_Notebook.ipynb), and the [presentation](./Retinal_OCT_Imaging_Presentation.pdf) here.
 
 For additional information, please contact Rachel Goldstein at [rachelhgoldstein1@gmail.com](mailto:rachelhgoldstein1@gmail.com), or find me on [Linkedin](https://www.linkedin.com/in/rachel-goldstein-512540158/). 
 
 ## Repository Structure:
+```
+├── code
+│   ├── Working_Copy_Binary.ipynb
+│   ├── Working_Copy_Multiclass.ipynb
+│   ├── Working_Copy_Multiclass_V2.ipynb
+│   └── Working_Copy_Multiclass_v3.ipynb
+├── .gitignore
+├── README.md
+├── Retinal_OCT_Final_Notebook.ipynb
+└── Retinal_OCT_Imaging_Presentation.pdf
+```
